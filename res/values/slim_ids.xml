@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 SlimRoms Project
+<!-- Copyright (C) 2013 Slimroms
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
 
      Unless required by applicable law or agreed to in writing, software
@@ -11,12 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+
 <resources>
-
-    <color name="theme_accent">#ff009688</color>
-
-    <!-- DSLV colors -->
-    <color name="dslv_icon_dark">#ff009688</color>
-    <color name="dslv_float_cackground_color">#ffe1e1e0</color>
-
+    <item type="id" name="drag_handle" />
 </resources>
