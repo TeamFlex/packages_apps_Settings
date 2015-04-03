@@ -20,4 +20,7 @@
     <string name="flex_version">FlexOS version</string>
     <string name="flex_version_default">FLEX-6.0 [BETA]</string>
 
+    <!-- FlexControl -->
+    <string name="flex_control_title">FlexControl</string>
+
 </resources>
