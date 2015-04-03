@@ -229,13 +229,12 @@
                 android:icon="@drawable/ic_settings_profiles"
                 />
 
-        <!-- Status bar -->
+        <!-- Flex Control -->
         <dashboard-tile
-                android:id="@+id/status_bar_settings"
-                android:title="@string/status_bar_title"
-                android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
-                android:icon="@drawable/ic_settings_statusbar"
-                />
+                android:id="@+id/flex_control"
+                android:title="@string/flex_control_title"
+                android:fragment="com.android.settings.flex.FlexControl"
+                android:icon="@drawable/flex"/>
 
         <!-- Application Settings -->
         <dashboard-tile
