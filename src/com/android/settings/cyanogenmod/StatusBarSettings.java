@@ -62,6 +62,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final String NETWORK_TRAFFIC_PERIOD = "network_traffic_period";
     private static final String NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide";
     private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
+    private static final String PREF_ENABLE_TASK_MANAGER = "enable_task_manager";
 
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
@@ -82,6 +83,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private int MASK_DOWN;
     private int MASK_UNIT;
     private int MASK_PERIOD;
+
+    private SwitchPreference mEnableTaskManager;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -177,6 +180,14 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             prefScreen.removePreference(findPreference(NETWORK_TRAFFIC_AUTOHIDE));
             prefScreen.removePreference(findPreference(NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD));
         }
+        // Task manager
+        mEnableTaskManager = (SwitchPreference) prefSet.findPreference(PREF_ENABLE_TASK_MANAGER);
+        mEnableTaskManager.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.ENABLE_TASK_MANAGER, 0) == 1));
+
+        setHasOptionsMenu(true);
+        mCheckPreferences = true;
+        return prefSet;
     }
 
     @Override
@@ -268,6 +279,16 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             return true;
         }
         return false;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+       if  (preference == mEnableTaskManager) {
+            boolean enabled = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.ENABLE_TASK_MANAGER, enabled ? 1:0);
+        }
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     private void enableStatusBarBatteryDependents(int batteryIconStyle) {
