@@ -47,4 +47,13 @@
     <string name="recents_show_membar_summary_on">Available RAM memory bar will be displayed on recents view</string>
     <string name="recents_show_membar_summary_off">Toggle to display available RAM memory bar on recents view</string>
 
+    <!-- Color picker -->
+     <string name="dialog_color_picker_title">Color Picker</string>
+     <string name="press_color_to_apply">Press on color below to apply</string>
+     <string name="palette_darkkat_title">Flex</string>
+     <string name="palette_material_title">Material</string>
+     <string name="palette_rgb_title">RGB</string>
+     <string name="reset_android_title">Android default</string>
+     <string name="reset_darkkat_title">FlexOS default</string>
+
 </resources>
