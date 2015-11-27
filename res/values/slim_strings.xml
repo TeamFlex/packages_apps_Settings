@@ -58,5 +58,6 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
-
+    <string name="reset_message">Reset all entries to default?</string> 
+    <string name="shortcut_action_reset">Reset</string>
 </resources>
