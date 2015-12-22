@@ -18,11 +18,32 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/status_bar_title">
 
-    <!-- Status bar -->
-    <PreferenceScreen
-        android:id="@+id/status_bar_settings"
-        android:title="@string/status_bar_title"
-        android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
-        android:icon="@drawable/ic_settings_extdesk_hidenavbar" />
+        <!-- Status bar -->
+        <PreferenceScreen
+              android:id="@+id/status_bar_settings"
+              android:title="@string/status_bar_title"
+              android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
+              android:icon="@drawable/ic_settings_extdesk_hidenavbar" />
+
+        <!-- Recents -->
+        <PreferenceCategory
+                android:key="recents_settings"
+                android:title="@string/recents_settings">
+
+                <!-- Search in Recents -->
+                <com.android.settings.cyanogenmod.CMSystemSettingSwitchPreference
+                        android:key="recents_show_search_bar"
+                        android:title="@string/recents_show_searchbar"
+                        android:defaultValue="true" />
+
+                <!-- RAM Memory bar -->
+                <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+                        android:key="systemui_recents_mem_display"
+                        android:title="@string/recents_show_membar_title"
+                        android:summaryOn="@string/recents_show_membar_summary_on"
+                        android:summaryOff="@string/recents_show_membar_summary_off"
+                        android:defaultValue="false" />
+
+        </PreferenceCategory>
 
 </PreferenceScreen>
