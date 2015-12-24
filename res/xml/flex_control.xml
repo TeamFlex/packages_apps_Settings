@@ -59,4 +59,17 @@
 
         </PreferenceCategory>
 
+        <!-- Toast Notifications -->
+        <PreferenceCategory
+                android:key="toast_notifications_category"
+                android:title="@string/toast_notifications_category">
+ 
+                <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+                        android:key="toast_icon"
+                        android:summary="@string/toast_icon_summary"
+                        android:title="@string/toast_icon_title"
+                        android:defaultValue="true" />
+
+        </PreferenceCategory>
+
 </PreferenceScreen>
