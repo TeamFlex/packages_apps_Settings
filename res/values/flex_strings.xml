@@ -18,10 +18,11 @@
 
     <!-- FlexOS Version -->
     <string name="flex_version">FlexOS version</string>
-    <string name="flex_version_default">FLEX-6.0 [BETA]</string>
+    <string name="flex_version_default">Unknown</string>
 
     <!-- FlexControl -->
     <string name="flex_control_title">FlexControl</string>
+    <string name="toast_notifications_category">Toast notifications</string>
 
     <!-- long press back to kill configurable timeout -->
     <string name="kill_app_longpress_timeout_title">Long press timeout</string>
@@ -77,5 +78,9 @@
     <string name="network_traffic_autohide_title">Auto hide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+
+    <!-- Toast Icons -->
+    <string name="toast_icon_title">Toast icon</string>
+    <string name="toast_icon_summary">Choice if show or not apps icon on toast</string>
 
 </resources>
