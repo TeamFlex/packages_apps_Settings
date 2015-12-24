@@ -14,7 +14,7 @@ import com.android.settings.R;
 
 import com.android.internal.logging.MetricsLogger;
 
-public class ScreenAndAnimations extends SettingsPreferenceFragment implements
+public class AnimationCentral extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "AnimationCentral";
