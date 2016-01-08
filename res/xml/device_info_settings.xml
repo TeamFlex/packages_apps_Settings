@@ -77,6 +77,12 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/device_info_default"/>
 
+        <!-- Flayr version -->
+        <Preference android:key="flayr_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/flayr_version"
+                android:summary="@string/flayr_version_default" />
+
         <!-- Security patch level -->
         <Preference android:key="security_patch"
                 style="?android:preferenceInformationStyle"

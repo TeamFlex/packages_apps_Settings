@@ -76,6 +76,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_SELINUX_STATUS = "selinux_status";
     private static final String KEY_BASEBAND_VERSION = "baseband_version";
     private static final String KEY_FIRMWARE_VERSION = "firmware_version";
+    private static final String KEY_FLAYR_VERSION = "flayr_version";
     private static final String KEY_SECURITY_PATCH = "security_patch";
     private static final String KEY_SLIM_VERSION = "slim_version";
     private static final String KEY_UPDATE_SETTING = "additional_system_update_settings";
@@ -131,6 +132,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
+
+       setValueSummary(KEY_FLAYR_VERSION, "ro.flex.version");
+       findPreference(KEY_FLAYR_VERSION).setEnabled(true);
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
