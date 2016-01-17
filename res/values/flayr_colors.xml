@@ -22,4 +22,5 @@
     <color name="dslv_float_cackground_color">#ffe1e1e0</color>
     
     <color name="theme_accent">#ff009688</color>
+   <color name="action_picker_fab_background">@color/theme_accent</color>
 </resources>
