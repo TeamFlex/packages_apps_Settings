@@ -84,13 +84,6 @@
                 android:title="@string/flayr_settings_title"
                 />
 
-    </dashboard-category>
-
-    <!-- PERSONALIZATION -->
-    <dashboard-category
-            android:id="@+id/personalization_section"
-            android:title="@string/header_category_personalization" >
-
         <!-- Navigation -->
         <dashboard-tile
                 android:id="@+id/navigation_settings"
