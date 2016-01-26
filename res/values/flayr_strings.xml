@@ -16,9 +16,9 @@
       <string name="flayr_version">Flayr Version</string>
       <string name="flayr_version_default">Unknown</string>
 
-      <!-- Flex Control -->
+      <!-- Flayr Control -->
      <string name="header_category_personalization">Personalization</string>
-     <string name="flayr_settings_title">Flex Control</string>
+     <string name="flayr_settings_title">Flayr Control</string>
      <string name="status_bar_title">Statusbar</string>
      <string name="status_bar_style_title">Statusbar style</string>
 
