@@ -22,4 +22,7 @@
      <string name="status_bar_title">Statusbar</string>
      <string name="status_bar_style_title">Statusbar style</string>
 
+     <!-- BitSyko Layers -->
+    <string name="bitsyko_layers">Layers</string>
+
  </resources>
