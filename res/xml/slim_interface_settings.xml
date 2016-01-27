@@ -28,4 +28,12 @@
  	android:key="slim_navigation_settings"
         android:fragment="com.android.settings.slim.NavigationSettings"
  	android:title="@string/navigation_settings_title" />
+
+        <!-- Logcat or GTFO -->
+ 	<PreferenceScreen
+             android:key="drill"
+             android:fragment="com.android.settings.flayr.flayrdrill"
+             android:title="@string/flayr_drill_title"
+             />
+
 </PreferenceScreen>
