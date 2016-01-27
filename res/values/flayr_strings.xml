@@ -25,4 +25,7 @@
      <!-- BitSyko Layers -->
     <string name="bitsyko_layers">Layers</string>
 
+     <!-- The Drill -->
+    <string name="flayr_drill_title">The Drill</string>
+
  </resources>
