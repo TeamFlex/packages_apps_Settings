@@ -16,6 +16,7 @@ import java.util.Date;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
+import com.android.internal.logging.MetricsLogger;
 
 public class flayrdrill extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
@@ -40,4 +41,8 @@ public class flayrdrill extends SettingsPreferenceFragment implements
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
+    Override
+     protected int getMetricsCategory() {
+         return MetricsLogger.MAIN_SETTINGS;
+     }
 }
