@@ -41,7 +41,7 @@ public class flayrdrill extends SettingsPreferenceFragment implements
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
-    Override
+   @Override
      protected int getMetricsCategory() {
          return MetricsLogger.MAIN_SETTINGS;
      }
