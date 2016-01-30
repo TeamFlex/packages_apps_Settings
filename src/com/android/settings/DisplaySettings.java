@@ -114,13 +114,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private SwitchPreference mCameraDoubleTapPowerGesturePreference;
     private ListPreference mLcdDensityPreference;
 
-    private ContentObserver mAccelerometerRotationObserver =
-            new ContentObserver(new Handler()) {
-        @Override
-        public void onChange(boolean selfChange) {
-            updateDisplayRotationPreferenceDescription();
-        }
-    };
 
     @Override
     protected int getMetricsCategory() {
