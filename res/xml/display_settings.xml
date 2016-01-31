@@ -119,6 +119,12 @@
                 android:summary="@string/dashboard_columns_summary"
                 android:persistent="false" />
 
+       <!-- Toast Icons -->
+                 <com.android.settings.slim.SystemSettingSwitchPreference
+                     android:key="toast_icon"
+                     android:title="@string/toast_icon_title"
+                     android:defaultValue="true" />
+
         <PreferenceScreen
                 android:key="wifi_display"
                 android:title="@string/wifi_display_settings_title"
