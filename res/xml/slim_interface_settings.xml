@@ -36,11 +36,6 @@
          android:fragment="com.android.settings.flayr.Recents"
          android:title="@string/recents_category" />
 
-     <PreferenceScreen
- 	android:key="slim_navigation_settings"
-        android:fragment="com.android.settings.slim.NavigationSettings"
- 	android:title="@string/navigation_settings_title" />
-
         <!-- Logcat or GTFO -->
  	<PreferenceScreen
              android:key="drill"
