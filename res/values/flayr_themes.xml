@@ -21,3 +21,4 @@
         <item name="android:colorPrimaryDark">@color/colorpick_primary_dark</item>
         <item name="android:colorAccent">@color/colorpick_accent</item>
     </style>
+</resources>
