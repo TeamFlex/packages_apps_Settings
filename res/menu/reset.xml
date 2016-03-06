@@ -18,8 +18,8 @@
     <item android:id="@+id/reset_android"
         android:title="@string/reset_android_title"
         />
-    <item android:id="@+id/reset_darkkat"
-        android:title="@string/reset_darkkat_title"
+    <item android:id="@+id/reset_flayr"
+        android:title="@string/reset_flayr_title"
         />
 </menu>
 
