@@ -203,7 +203,7 @@
           <item>@string/status_bar_battery_style_text</item>
           <item>@string/status_bar_battery_style_hidden</item>
       </string-array>
-  
+
       <string-array name="status_bar_battery_style_values" translatable="false">
           <item>0</item>
           <item>5</item>
@@ -212,13 +212,13 @@
           <item>6</item>
           <item>4</item>
       </string-array>
-  
+
       <string-array name="status_bar_battery_percentage_entries" translatable="false">
          <item>@string/status_bar_battery_percentage_default</item>
           <item>@string/status_bar_battery_percentage_text_inside</item>
           <item>@string/status_bar_battery_percentage_text_next</item>
       </string-array>
-  
+
       <string-array name="status_bar_battery_percentage_values" translatable="false">
           <item>0</item>
           <item>1</item>
@@ -231,7 +231,7 @@
          <item>@string/dashboard_columns_two</item>
          <item>@string/dashboard_columns_three</item>
      </string-array>
- 
+
      <string-array name="dashboard_columns_values" translatable="false">
          <item>1</item>
          <item>2</item>
@@ -245,31 +245,31 @@
          <item>Top of navbar</item>
          <item>Bottom of navbar</item>
      </string-array>
- 
+
      <string-array name="battery_bar_values" translatable="false">
          <item>0</item>
          <item>1</item>
          <item>2</item>
  	<item>3</item>
  	</string-array>
- 
+
      <string-array name="battery_bar_style_entries">
  	<item>Regular</item>
  	<item>Center-mirrored</item>
      </string-array>
- 
+
      <string-array name="battery_bar_style_values" translatable="false">
  	<item>0</item>
  	<item>1</item>
      </string-array>
- 
+
      <string-array name="battery_bar_thickness_entries">
  	<item>1 dp</item>
  	<item>2 dp</item>
  	<item>3 dp</item>
  	<item>4 dp</item>
      </string-array>
- 
+
      <string-array name="battery_bar_thickness_values" translatable="false">
  	<item>1</item>
         <item>2</item>
@@ -286,7 +286,7 @@
          <item>@string/recents_clear_all_location_bottom_left</item>
          <item>@string/recents_clear_all_location_bottom_center</item>
      </string-array>
- 
+
      <string-array name="recents_clear_all_location_values" translatable="false">
          <item>0</item>
          <item>1</item>
@@ -307,7 +307,7 @@
          <item>@id/panel_view_button_7</item>>
          <item>@id/panel_view_button_8</item>
      </array>
- 
+
      <array name="color_picker_flayr_palette">
          <item>@color/black</item>
          <item>@color/flayr_blue_grey</item>
@@ -318,7 +318,7 @@
          <item>@color/material_red_500</item>>
          <item>@color/material_purple_500</item>
      </array>
- 
+
      <array name="color_picker_material_palette">
          <item>@color/material_red_500</item>
          <item>@color/material_green_500</item>
@@ -329,7 +329,7 @@
          <item>@color/material_yellow_500</item>>
          <item>@color/material_orange_500</item>
      </array>
- 
+
      <array name="color_picker_rgb_palette">
          <item>@color/black</item>
          <item>@color/red</item>
