@@ -111,30 +111,37 @@
     <string name="am_pm_clock_normal">Normal font size</string>
     <string name="am_pm_clock_small">Small font size</string>
     <string name="am_pm_clock_none">Don\'t show</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
-    <string name="reset">Reset</string>
-    <string name="default_string">Default</string>
+     <string name="clock_date_display_none">Don\'t show</string>
+     <string name="clock_date_display_small">Small font size</string>
+     <string name="clock_date_display_normal">Normal font size</string>
+     <string name="clock_date_style_normal">Normal</string>
+     <string name="clock_date_style_lowercase">Lowercase</string>
+     <string name="clock_date_style_uppercase">Uppercase</string>
+     <string name="clock_date_format_custom">Custom java format</string>
+     <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
+     <string name="reset">Reset</string>
+     <string name="default_string">Default</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="dialog_color_picker_title">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
-    <string name="reset_message">Reset all entries to default?</string>
-    <string name="shortcut_action_reset">Reset</string>
+     <string name="dialog_color_picker">Color Picker</string>
+     <string name="dialog_color_picker_title">Color Picker</string>
+     <string name="press_color_to_apply">Press on color below to apply</string>
+     <string name="palette_flayr_title">Flayr</string>
+  	 <string name="palette_material_title">Material</string>
+  	 <string name="palette_rgb_title">RGB</string>
+     <string name="arrow_right">→</string>
+     <string name="arrow_down">↓</string>
+     <string name="hex">Hex:</string>
+     <string name="hex_hint">#ff000000</string>
+     <string name="set">Set</string>
+     <string name="color_default">Default</string>
+     <string name="reset_message">Reset all entries to default?</string>
+     <string name="shortcut_action_reset">Reset</string>
+     <string name="reset_android_title">Android default</string>
+  	 <string name="reset_flayr_title">Flayr Default</string>
+     <string name="default_string">Default</string>
+     <string name="pref_navigation_menu_entries"> Menù</string>
 
-    <!-- Status bar - Battery Options -->
+      <!-- Status bar - Battery Options -->
      <string name="battery_icon_options_title">Battery icon options</string>
       <!-- Status bar - Battery Style -->
      <string name="status_bar_battery_style_title">Battery status style</string>
@@ -165,18 +172,5 @@
     <string name="battery_bar_animate_title">Charging animation</string>
     <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
 
-	<!-- Color picker -->
-	<string name="dialog_color_picker_title">Color Picker</string>
-	<string name="press_color_to_apply">Press on color below to apply</string>
-	<string name="palette_flayr_title">Resurrection</string>
-	<string name="palette_material_title">Material</string>
-	<string name="palette_rgb_title">RGB</string>
-	<string name="reset_android_title">Android default</string>
-	<string name="reset_flayr_title">Customized palette</string>
-	<string name="default_string">Default</string>	
 
-	<string name="reset_flayr">Flayr</string>
-	<string name="reset_android">Android</string>
-
-<string name="pref_navigation_menu_entries"> Menù</string>
  </resources>
