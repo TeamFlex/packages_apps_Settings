@@ -195,7 +195,6 @@ public class ColorPickerPreference extends DialogPreference implements
         final ColorPickerDialog pickerDialog = (ColorPickerDialog) getDialog();
     }
 
-    @Override
     protected Dialog createDialog() {
         final ColorPickerDialog pickerDialog = new ColorPickerDialog(
                 getContext(), R.style.Theme_ColorPickerDialog,
