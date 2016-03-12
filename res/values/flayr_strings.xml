@@ -140,7 +140,6 @@
   	 <string name="reset_flayr_title">Flayr Default</string>
      <string name="default_string">Default</string>
      <string name="pref_navigation_menu_entries"> Menù</string>
-
       <!-- Status bar - Battery Options -->
      <string name="battery_icon_options_title">Battery icon options</string>
       <!-- Status bar - Battery Style -->

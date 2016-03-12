@@ -86,7 +86,7 @@ public class ColorPickerDialog extends Dialog implements
     private final int mDarkKatColor;
     private int mNewColorValue;
 
-    private static final int PALETTE_DARKKAT  = 0;
+    private static final int PALETTE_FLAYR  = 0;
     private static final int PALETTE_MATERIAL = 1;
     private static final int PALETTE_RGB      = 2;
 
@@ -355,8 +355,8 @@ public class ColorPickerDialog extends Dialog implements
 
     @Override
     public boolean onMenuItemClick(MenuItem item) {
-        if (item.getItemId() == R.id.palette_darkkat) {
-            setPalette(PALETTE_DARKKAT);
+        if (item.getItemId() == R.id.palette_flayr) {
+            setPalette(PALETTE_FLAYR);
             mColorTransitionAnimator.start();
             return true;
         } else if (item.getItemId() == R.id.palette_material) {
@@ -370,7 +370,7 @@ public class ColorPickerDialog extends Dialog implements
         } else if (item.getItemId() == R.id.reset_android) {
             mColorPicker.setColor(mAndroidColor, true);
             return true;
-        } else if (item.getItemId() == R.id.reset_darkkat) {
+        } else if (item.getItemId() == R.id.reset_flayr) {
             mColorPicker.setColor(mDarkKatColor, true);
             return true;
         }
@@ -450,7 +450,7 @@ public class ColorPickerDialog extends Dialog implements
 
     private int getPalette() {
         return Settings.System.getInt(mResolver,
-                Settings.System.COLOR_PICKER_PALETTE, PALETTE_DARKKAT);
+                Settings.System.COLOR_PICKER_PALETTE, PALETTE_FLAYR);
     }
 
     private void setPalette(int palette) {
@@ -460,8 +460,8 @@ public class ColorPickerDialog extends Dialog implements
 
     private int getPanelViewButtonColor(int pallete, int index) {
         TypedArray ta;
-        if (pallete == PALETTE_DARKKAT) {
-            ta = mResources.obtainTypedArray(R.array.color_picker_darkkat_palette);
+        if (pallete == PALETTE_FLAYR) {
+            ta = mResources.obtainTypedArray(R.array.color_picker_flayr_palette);
         } else if (pallete == PALETTE_MATERIAL) {
             ta = mResources.obtainTypedArray(R.array.color_picker_material_palette);
         } else {

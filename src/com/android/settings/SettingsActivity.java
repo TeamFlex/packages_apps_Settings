@@ -1313,7 +1313,7 @@ public class SettingsActivity extends Activity
                      }
                 }
 
-                } else if (id == R.id.supersu_settings) {
+                 else if (id == R.id.supersu_settings) {
                       // Embedding into Settings is supported from SuperSU v1.85 and up
                       boolean supported = false;
                       try {
