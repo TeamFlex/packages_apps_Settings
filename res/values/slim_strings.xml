@@ -212,10 +212,6 @@
     <!-- Memory -->
     <string name="memory_startup_apps_title">Apps started on boot</string>
 
-    <!-- About phone screen, Slim version 
-    <string name="slim_version_title">Slim version</string>
-    <string name="slim_version_default">Unknown</string>-->
-
     <!-- Display & Lights screen, setting options for LCD density -->
     <string name="lcd_density">LCD density</string>
     <string name="dialog_title_lcd_density">LCD density</string>
